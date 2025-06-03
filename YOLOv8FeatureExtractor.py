@@ -60,4 +60,6 @@ class YOLOv8FeatureExtractor:
             print(f"Vector final: {vector.shape}")
 
             vector = vector.cpu().numpy()  # Convertir a numpy array
+
+            #Esta es una prueba para ver si funciona el commit
         return bbox, vector, int(cls)
